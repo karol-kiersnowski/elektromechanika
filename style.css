@@ -1,0 +1,306 @@
+* {
+	box-sizing: border-box;
+	font-family: Quicksand, Arial, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+#header-background {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	background-image: url("img/sportowa14.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#header-content {
+	position: absolute;
+	z-index: 1;
+	bottom: calc(50% - 100px);
+	width: 100%;
+}
+
+nav {
+	position: sticky;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.75);
+	color: #fff;
+	box-shadow: 0 0 15px #333;
+}
+
+main {
+	position: relative;
+	z-index: 1;
+	background-image: url("img/background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 5px #aaa;
+}
+
+footer {
+	position: sticky;
+	z-index: 0;
+	bottom: 0;
+	padding: 20px;
+	text-align: center;
+	background-color: #eee;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-top: 50px;
+	max-width: 1200px;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+img#logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 150px;
+	opacity: 0.8;
+}
+
+h1 {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	//text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 20px #000;
+	text-shadow: 1px 1px 3px #000;
+}
+
+h1#main{
+	font-size: 50px;
+}
+
+h1#sub{
+	font-size: 34px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+nav ul > li {
+	display: inline;
+}
+
+
+
+
+section i { color: #136; }
+
+
+
+
+
+
+a {
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 3px 20px;
+	border-top: 3px solid rgba(255,255,255,0);
+	color: inherit;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+h1, h2, h3, h4 { font-weight: normal; }
+#window h2 { font-size: 20px; }
+footer h2 { font-size: 20px; }
+h2 { font-size: 42px; }
+h3 { font-size: 22px; }
+
+footer p { font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.col-100 { width: 100%; }
+.col-50 { width: 50%; }
+.col-25 { width: 25%; padding: 5px; }
+.inline-block { display: inline-block; }
+.float-left { float: left; }
+.float-right { float: right; }
+.clear { clear: both; }
+.center { margin-left: auto; margin-right: auto; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.small { font-size: small; }
+
+
+
+
+
+div.image { transition: all 0.3s ease-in-out; }
+div.image:hover { opacity: 0.8; }
+
+img {
+	display: block;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.full {
+	width: 100%;
+	height: calc(100vh - 40px);
+	box-shadow: 0 0 15px #aaa;
+}
+
+.full-viewport {
+	padding-top: 40px;
+	width: 100%;
+	height: 100vh;
+}
+
+
+div#map-content {
+	background-color: #fff;
+	background-image: url("img/mapa.png");
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 10px;
+	text-align: left;
+	background-color: #8bf;
+	color: #fff;
+}
+
+td {
+	padding: 10px;
+	text-align: left;
+	border-top: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+	section { padding-top: 20px; }
+
+	#header-content {
+		bottom: calc(50% - 75px);
+	}
+
+	img#logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	h1#main{ font-size: 30px; }
+	h1#sub{ font-size: 20px; }
+
+	nav ul { font-size: 14px; }
+	nav a { padding: 7px 2px; }
+
+	.col-25 { width: 50%; }
+	.col-50 { width: 100%; }
+	.float-left,
+	.float-right {
+		//float: none;
+		//margin: auto;
+	}
+	.mobile-invisible {
+		display: none;
+	}
+}

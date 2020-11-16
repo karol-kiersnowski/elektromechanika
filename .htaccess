@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?elektromechanika-bielsk\.prv\.pl [NC]
+RewriteRule (.*) http://elektromechanika-bielsk.pl/$1 [L,NE,R=301]

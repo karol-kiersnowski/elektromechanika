@@ -1,12 +1,12 @@
 Elektromechanika
 ================
 
-Elektromechanika - one-page website
+Elektromechanika - company website | one-page website
 
 Projects site
 -------------
 * [elektromechanika-bielsk.pl](http://elektromechanika-bielsk.pl)
-* [kargol92.github.io/elektromechanika](https://kargol92.github.io/elektromechanika)
+* [karol-kiersnowski.github.io/elektromechanika](https://karol-kiersnowski.github.io/elektromechanika)
 
 Technologies
 ------------

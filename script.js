@@ -19,7 +19,7 @@ function markAnchor() {
 	}
 }
 
-/*function initMap() {
+/*function initGoogleMap() {
 	var mapCanvas = document.getElementById("map-content");
 	var mapCenter = new google.maps.LatLng(52.7582866, 23.1860516);
 	var mapOptions = { center: mapCenter, zoom: 15, mapTypeId: google.maps.MapTypeId.HYBRID };

@@ -181,7 +181,7 @@ h3 { font-size: 22px; }
 .center { margin-left: auto; margin-right: auto; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
-.small { font-size: small; }
+.x-small { font-size: x-small; }
 
 
 
@@ -208,8 +208,7 @@ img {
 	height: 100vh;
 }
 
-
-div#map-content {
+#map-iframe {
 	background-color: #fff;
 	background-image: url("img/mapa.png");
 	background-position: center;

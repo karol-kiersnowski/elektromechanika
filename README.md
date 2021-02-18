@@ -3,7 +3,7 @@ Elektromechanika
 
 Elektromechanika - company website | one-page website
 
-Project site - [elektromechanika.net.pl](http://elektromechanika.net.pl)
+Project site - [http://elektromechanika.net.pl](http://elektromechanika.net.pl)
 
 ### Technologies
 * HTML 5
@@ -15,7 +15,7 @@ Project site - [elektromechanika.net.pl](http://elektromechanika.net.pl)
   * [Font Awesome](https://fontawesome.com) icons
   * [Quicksand](https://fonts.google.com/specimen/Quicksand) font
 
-* OpenStreetMap
+* [OpenStreetMap](https://www.openstreetmap.org)
 
 ### Language
 * User interface: Polish

@@ -1,39 +1,34 @@
 Elektromechanika
-================
+----------------
 
 Elektromechanika - company website | one-page website
 
-Projects site
--------------
-* [elektromechanika-bielsk.pl](http://elektromechanika-bielsk.pl)
-* [karol-kiersnowski.github.io/elektromechanika](https://karol-kiersnowski.github.io/elektromechanika)
+Project site - [elektromechanika.net.pl](http://elektromechanika.net.pl)
 
-Technologies
-------------
+### Technologies
 * HTML 5
 * CSS
 * JavaScript
 
-Language
---------
+### Features
+* CSS webfonts
+  * [Font Awesome](https://fontawesome.com) icons
+  * [Quicksand](https://fonts.google.com/specimen/Quicksand) font
+
+* OpenStreetMap
+
+### Language
 * User interface: Polish
 * Source code: English / Polish
 
-Requirements
-------------
+### Requirements
 * Web browser
 
-Screenshots
------------
+### Screenshots
+![cmd](https://karol-kiersnowski.github.io/img/projects/elektromechanika.png)
 
-To do
------
-nothing
+### Author
+[Karol Kiersnowski](https://karol-kiersnowski.github.io)
 
-Author
-------
-Karol Kiersnowski
-
-License
--------
-Copyright 2020 Karol Kiersnowski All rights reserved
+### License
+Copyright 2021 Karol Kiersnowski All rights reserved

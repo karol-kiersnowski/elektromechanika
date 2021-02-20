@@ -11,6 +11,8 @@ Project site - [http://elektromechanika.net.pl](http://elektromechanika.net.pl)
 * JavaScript
 
 ### Features
+* One-page website
+
 * CSS webfonts
   * [Font Awesome](https://fontawesome.com) icons
   * [Quicksand](https://fonts.google.com/specimen/Quicksand) font

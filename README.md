@@ -6,7 +6,7 @@ Elektromechanika - strona firmowa | strona typu one-page
 ### Strona internetowa projektu
 
 1.  [http://elektromechanika.net.pl](http://elektromechanika.net.pl)
-2.  [https://karol-kiersnowski.github.io/elektromechanika](https://karol-kiersnowski.github.io/elekttromechanika)
+2.  [https://karol-kiersnowski.github.io/elektromechanika](https://karol-kiersnowski.github.io/elektromechanika)
 
 ### Technologie
 

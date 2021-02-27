@@ -1,36 +1,44 @@
-Elektromechanika
-----------------
+![Elektromechanika Krzysztof Kiersnowski](https://karol-kiersnowski.github.io/img/icons/elektromechanika-32x32.png) Elektromechanika
+------------------------------------------------------------------------------------------------------------------------------------
 
-Elektromechanika - company website | one-page website
+Elektromechanika - strona firmowa | strona typu one-page
 
-Project site - [http://elektromechanika.net.pl](http://elektromechanika.net.pl)
+### Strona internetowa projektu
 
-### Technologies
-* HTML 5
-* CSS
-* JavaScript
+1.  [http://elektromechanika.net.pl](http://elektromechanika.net.pl)
+2.  [https://karol-kiersnowski.github.io/elektromechanika](https://karol-kiersnowski.github.io/elektromechanika)
 
-### Features
-* One-page website
+### Technologie
 
-* CSS webfonts
-  * [Font Awesome](https://fontawesome.com) icons
-  * [Quicksand](https://fonts.google.com/specimen/Quicksand) font
+*   HTML 5
+*   CSS
+*   JavaScript
 
-* [OpenStreetMap](https://www.openstreetmap.org)
+### Cechy & właściwości
 
-### Language
-* User interface: Polish
-* Source code: English / Polish
+*   Strona typu one-page
+*   Czcionki internetowe CSS
+    *   [Font Awesome](https://fontawesome.com)
+    *   [Quicksand](https://fonts.google.com/specimen/Quicksand)
+*   Interaktywna mapa - [OpenStreetMap](https://www.openstreetmap.org)
 
-### Requirements
-* Web browser
+### Język
 
-### Screenshots
-![cmd](https://karol-kiersnowski.github.io/img/projects/elektromechanika.png)
+*   Interfejs użytkownika: polski
+*   Kod źródłowy: angielski / polski
 
-### Author
+### Wymagania
+
+Przeglądarka internetowa
+
+### Screenshot'y
+
+![Elektromechanika Krzysztof Kiersnowski](https://karol-kiersnowski.github.io/img/projects/elektromechanika.png)
+
+### Autor
+
 [Karol Kiersnowski](https://karol-kiersnowski.github.io)
 
-### License
-Copyright 2021 Karol Kiersnowski All rights reserved
+### Licencja
+
+Copyright © 2018-2021 Wszystkie prawa zastrzeżone

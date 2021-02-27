@@ -1,5 +1,5 @@
-![Elektromechanika Krzysztof Kiersnowski](https://karol-kiersnowski.github.io/img/icons/elektromechanika-32x32.png) Elektromechanika
-------------------------------------------------------------------------------------------------------------------------------------
+Elektromechanika
+----------------
 
 Elektromechanika - strona firmowa | strona typu one-page
 

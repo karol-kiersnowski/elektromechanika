@@ -13,6 +13,7 @@ Elektromechanika - strona firmowa | strona typu one-page
 *   HTML 5
 *   CSS
 *   JavaScript
+	*	biblioteka [Leaflet JS](https://leafletjs.com/)
 
 ### Cechy & właściwości
 

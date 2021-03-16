@@ -29,6 +29,7 @@ function initMap() {
 		center: [52.7582866, 23.1860516],
 		zoom: 16,
 		scrollWheelZoom: false,
+		touchZoom: true,
 		dragging: !L.Browser.mobile,
 		tap: !L.Browser.mobile
 	});

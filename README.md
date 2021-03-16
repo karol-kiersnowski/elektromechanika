@@ -21,7 +21,7 @@ Elektromechanika - strona firmowa | strona typu one-page
 *   Czcionki internetowe CSS
     *   [Font Awesome](https://fontawesome.com)
     *   [Quicksand](https://fonts.google.com/specimen/Quicksand)
-*   Interaktywna mapa - [OpenStreetMap](https://www.openstreetmap.org)
+*   Interaktywna mapa - [OpenStreetMap](https://www.openstreetmap.org) ([Leaflet JS](https://leafletjs.com/))
 
 ### Język
 

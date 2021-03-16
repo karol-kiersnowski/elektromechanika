@@ -19,10 +19,7 @@ function markAnchor() {
 	}
 }
 
-// OpenStreetMap - Leaflet
-//////////////////////////
-
-function initMap() {
+function initOpenStreetMap() {
 	document.getElementById("map-content").style.backgroundImage = "none";
 
 	var map = L.map('map-content', {

@@ -110,7 +110,7 @@ nav {
 main {
 	position: relative;
 	z-index: 1;
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/tlo.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;

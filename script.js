@@ -19,6 +19,24 @@ function markAnchor() {
 	}
 }
 
+// OpenStreetMap - Leaflet
+//////////////////////////
+
+var map = L.map('map-content', {
+	center: [52.7582866, 23.1860516],
+	zoom: 16,
+	scrollWheelZoom: false,
+	touchZoom: false
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+map.scrollWheelZoom.disable();
+
+L.marker([52.7582866, 23.1860516]).addTo(map).bindPopup("Elektromechanika Krzysztof Kiersnowski<br>ul. Sportowa 14<br>17-100 Bielsk Podlaski<br><a target='_blank' href='https://www.openstreetmap.org/#map=16/52.7583/23.1861&layers=N'>52.7582866, 23.1860516</a>");
+
+
 /*function initGoogleMap() {
 	var mapCanvas = document.getElementById("map-content");
 	var mapCenter = new google.maps.LatLng(52.7582866, 23.1860516);

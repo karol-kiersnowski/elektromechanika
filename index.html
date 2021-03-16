@@ -8,7 +8,13 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png"/>
 	<link rel="stylesheet" href="style.css"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"/>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	 	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
+	</script>
 	<script defer src="script.js"></script>
 	<!--<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv5_QdY0jVowJdbM8sgGkcGAXmZH3CPx4&callback=initMap"></script>-->
 
@@ -189,10 +195,11 @@
 
 
 		<div id="mapa" class="full-viewport">
-			<iframe class="full" id="map-iframe" style="border: none;" src="https://www.openstreetmap.org/export/embed.html?bbox=23.177783489227295%2C52.75455498288256%2C23.194391727447513%2C52.76203476162491&amp;layer=mapnik&amp;marker=52.758295032815894%2C23.186087608337402" style="border: 1px solid black"></iframe><br/>
+			<div id="map-content" class="full"></div>
+			<!-- <iframe class="full" id="map-iframe" style="border: none;" src="https://www.openstreetmap.org/export/embed.html?bbox=23.177783489227295%2C52.75455498288256%2C23.194391727447513%2C52.76203476162491&amp;layer=mapnik&amp;marker=52.758295032815894%2C23.186087608337402" style="border: 1px solid black"></iframe><br/>
 			<div class="text-right">
                 <a target="_blank" href="https://www.openstreetmap.org/?mlat=52.7583&amp;mlon=23.1861#map=16/52.7583/23.1861&amp;layers=N">Wyświetl większą mapę</a>
-            </div>
+            </div> -->
 		</div>
 
 

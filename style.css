@@ -216,7 +216,7 @@ img {
 	height: 100vh;
 }
 
-#map-iframe {
+#map-content {
 	background-color: #fff;
 	background-image: url("img/mapa.png");
 	background-position: center;

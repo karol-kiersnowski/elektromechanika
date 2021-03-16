@@ -25,10 +25,11 @@ function initOpenStreetMap() {
 	var map = L.map('map-content', {
 		center: [52.7583, 23.1861],
 		zoom: 16,
-		scrollWheelZoom: false,
-		touchZoom: true,
-		dragging: !L.Browser.mobile,
-		tap: !L.Browser.mobile
+		// scrollWheelZoom: false,
+		// touchZoom: true,
+		// dragging: !L.Browser.mobile,
+		// tap: !L.Browser.mobile
+		gestureHandling: true
 	});
 
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

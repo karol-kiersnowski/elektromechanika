@@ -1,0 +1,15 @@
+#    ___ ___ __  __ ___ ___ ___ ___    #
+#   / __| __|  \/  | _ \_ _| _ \ __|   #
+#   \__ \ _|| |\/| |  _/| ||   / _|    #
+#   |___/___|_|  |_|_| |___|_|_\___|   #
+#                                      #
+#         Htaccess Generator           #
+ 
+
+RewriteEngine on
+
+# Przekierowanie domeny
+
+RewriteCond %{SERVER_PORT} !^80$ [OR]
+RewriteCond %{HTTP_HOST} !^elektromechanika\.net.pl$ [NC] 
+RewriteRule ^(.*)$ http://elektromechanika\.net.pl/$1 [R=301,L]

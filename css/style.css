@@ -4,6 +4,12 @@
 	src: url(../webfonts/Quicksand-Regular.ttf);
 }
 
+@font-face {
+	font-family: Digital-7;
+	font-weight: 400;
+	src: url(../webfonts/digital-7-mono.ttf);
+}
+
 * {
 	box-sizing: border-box;
 	font-family: Quicksand, Arial, sans-serif;
@@ -28,6 +34,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	filter: contrast(75%) blur(1px);
 }
 
 #header-content {
@@ -51,12 +58,14 @@ body {
 			margin-right: auto;
 			width: 150px;
 			height: 150px;
-			opacity: 0.75;
-			transition: opacity 0.25s ease-in-out;
+			//opacity: 0.75;
+			transition: all 0.25s ease-in-out;
+			filter: contrast(75%);
 		}
 
 		header a:hover img {
-			opacity: 1;
+			//opacity: 1;
+			filter: contrast(100%);
 		}
 
 		h1 {
@@ -130,7 +139,7 @@ main {
 		section i { color: #136; }
 
 footer {
-	position: sticky;
+	//position: sticky;
 	z-index: 0;
 	bottom: 0;
 	padding: 20px;
@@ -259,11 +268,24 @@ table {
 		border-top: 1px solid #ddd;
 	}
 
+p#counter a:hover {
+	text-decoration: none;
+}
 
+	p#counter span.digit {
+		padding: 2px;
+		padding-bottom: 6px;
+		border: 1px solid #aaa;
+		border-left: none;
+		background-color: #fff;
+		color: #000;
+		font-family: Digital-7;
+		font-size: 16px;
+	}
 
-
-
-
+	p#counter span.digit:first-child {
+		border-left: 1px solid #aaa;
+	}
 
 
 

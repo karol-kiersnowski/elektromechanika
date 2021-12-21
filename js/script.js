@@ -23,17 +23,13 @@ function initOpenStreetMap() {
 	document.getElementById("map-content").style.backgroundImage = "none";
 
 	var map = L.map('map-content', {
-		center: [52.7583, 23.1861],
+		center: [52.7583, 23.1860],
 		zoom: 16,
-		// scrollWheelZoom: false,
-		// touchZoom: true,
-		// dragging: !L.Browser.mobile,
-		// tap: !L.Browser.mobile
 		gestureHandling: true
 	});
 
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		attribution: '<a target="_blank" href="https://github.com/elmarquis/Leaflet.GestureHandling">Leaflet.GestureHandling</a> | &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 	map.scrollWheelZoom.disable();
 

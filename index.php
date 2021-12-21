@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/logo-16x16.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="img/logo-32x32.png"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="img/logo-96x96.png"/>
+	<link rel="icon" type="image/png" sizes="500x500" href="img/logo-500x500.png"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/all.css"/><!--FONT AWESOME-->
+	<link rel="stylesheet" href="css/leaflet.css"/>
+	<link rel="stylesheet" href="css/leaflet-gesture-handling.min.css">
+	<script defer src="js/leaflet.js"></script>
+	<script defer src="js/leaflet-gesture-handling.min.js"></script>
+	<script defer src="js/script.js"></script>
+
+	<title>Elektromechanika Krzysztof Kiersnowski, Bielsk Podlaski</title>
+	<meta name="description" content="Naszą specjalizacją są naprawy: alternatorów, rozruszników, silników elektrycznych, elektronarzędzi, agregatów prądotwórczych, spawarek, sprężarek, prostowników. Posiadamy w sprzedaży duży asortyment części do naprawianych urządzeń."/>
+	<meta name="keywords" content="Elektromechanika, Krzysztof Kiersnowski, Krzysztof, Kiersnowski, Bielsk Podlaski, Bielsk, Podlaski, Sportowa, Sportowa 14,
+	elektromechanik, elektryk, mechanik, sklep, warsztat, zakład, warsztat samochodowy, samochód, sprzedaż, naprawa, przezwajanie, regeneracja, regenerowanie,
+	alternator, rozrusznik, silnik, elektryczny, prostownik, prądnica, elektronarzędzie, agregat, prądotwórczy, sprężarka, spawarka, akumulator, łożysko, części, części zamienne, regulator napięcia, materiał elektroizolacyjny, elektroizolacyjny, drut nawojowy, drut,
+	alternatory, rozruszniki, silniki, elektryczne, prostowniki, prądnice, elektronarzędzia, agregaty, prądotwórcze, sprężarki, spawarki, akumulatory, łożyska, regulatory napięcia, materiały elektroizolacyjne, elektroizolacyjne, druty nawojowe, druty"/>
+	<meta name="author" content="Karol Kiersnowski"/>
+</head>
+<body onload="initOpenStreetMap()" onscroll="markAnchor()">
+
+
+
+	<header class="full">
+		<div id="header-background"></div>
+		<div id="header-content">
+			<a href="https://elektromechanika.net.pl">
+				<img src="img/logo-500x500.png" alt="logo"/>
+				<h1 id="main">Elektromechanika</h1>
+				<h1 id="sub">Krzysztof Kiersnowski</h1>
+			</a>
+		</div>
+	</header>
+
+
+
+	<nav>
+		<ul>
+			<li>
+				<a href="#o-firmie">
+					<i class="fa fa-briefcase"></i>
+					<span class="mobile-invisible">O firmie</span>
+				</a>
+			</li>
+			<li>
+				<a href="#sklep">
+					<i class="fa fa-shopping-basket"></i>
+					<span class="mobile-invisible">Sklep</span>
+				</a>
+			</li>
+			<li>
+				<a href="#warsztat">
+					<i class="fa fa-wrench"></i>
+					<span class="mobile-invisible">Warsztat</span>
+				</a>
+			</li>
+			<li>
+				<a href="#mapa">
+					<i class="fa fa-map-marker-alt"></i>
+					<span class="mobile-invisible">Mapa</span>
+				</a>
+			</li>
+			<li>
+				<a href="#kontakt">
+					<i class="fa fa-phone"></i>
+					<span class="mobile-invisible">Kontakt</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+
+
+	<main>
+
+
+
+		<section id="o-firmie">
+			<div class="float-left col-50">
+			<h2 class="text-center"><i class="fa fa-briefcase"></i> O firmie</h2>
+			<p>
+				Jesteśmy firmą z wieloletnim doświadczeniem w branży. Prowadzimy działalność od 1986 r. Nasza siedziba znajduje się w Bielsku Podlaskim przy ulicy Sportowej 14. Zajmujemy się działalnością usługową i handlową.
+			</p>
+			<p>Naszą specjalizacją są naprawy:</p>
+			<ul class="fa-ul">
+				<li><i class="fa fa-check fa-li"></i>alternatorów</li>
+				<li><i class="fa fa-check fa-li"></i>rozruszników</li>
+				<li><i class="fa fa-check fa-li"></i>silników elektrycznych</li>
+				<li><i class="fa fa-check fa-li"></i>elektronarzędzi</li>
+				<li><i class="fa fa-check fa-li"></i>agregatów prądotwórczych</li>
+				<li><i class="fa fa-check fa-li"></i>spawarek</li>
+				<li><i class="fa fa-check fa-li"></i>sprężarek</li>
+				<li><i class="fa fa-check fa-li"></i>prostowników</li>
+			</ul>
+			<p>
+				Posiadamy w sprzedaży duży asortyment części do naprawianych urządzeń.
+			</p>
+			</div>
+			<div class="mobile-invisible float-right col-50 image">
+				<a target="_blank" href="img/img1.png">
+					<img src="img/img1.png" alt="img1"/>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+
+		<img class="full" src="img/sklep.jpg" alt="sklep"/>
+
+
+
+		<section id="sklep">
+			<div class="mobile-invisible float-left col-50 image">
+				<a target="_blank" href="img/img2.png">
+					<img src="img/img2.png" alt="img2"/>
+				</a>
+			</div>
+			<div class="float-right col-50">
+			<h2 class="text-center"><i class="fa fa-shopping-basket"></i> Sklep</h2>
+			<p>
+				Nasz sklep jest uzupełnieniem warsztatu. Dzięki bogatemu asortymentowi jesteśmy w stanie szybko wykonywać naprawy.
+			</p>
+			<p>W naszym sklepie znajdziesz:</p>
+			<ul class="fa-ul">
+				<li><i class="fa fa-check fa-li"></i>łożyska</li>
+				<li><i class="fa fa-check fa-li"></i>alternatory</li>
+				<li><i class="fa fa-check fa-li"></i>rozruszniki</li>
+				<li><i class="fa fa-check fa-li"></i>regulatory napięcia</li>
+				<li><i class="fa fa-check fa-li"></i>materiały elektroizolacyjne</li>
+				<li><i class="fa fa-check fa-li"></i>druty nawojowe</li>
+				<li><i class="fa fa-check fa-li"></i>części zamienne do rozruszników i alternatorów</li>
+			</ul>
+		</div>
+		</section>
+
+
+
+		<section id="warsztat">
+			<div class="float-left col-50">
+				<h2 class="text-center"><i class="fa fa-wrench"></i> Warsztat</h2>
+				<h3 class="text-center"><i class="far fa-credit-card"></i> Cennik usług</h3>
+				<table class="center">
+					<tr>
+						<th>Rodzaj usługi</th>
+						<th>Cena robocizny netto</th>
+					</tr>
+					<tr>
+						<td>Naprawa rozrusznika</td>
+						<td>od 70zł</td>
+					</tr>
+					<tr>
+						<td>Naprawa alternatora</td>
+						<td>od 70zł</td>
+					</tr>
+					<tr>
+						<td>Naprawa prostownika</td>
+						<td>od 20zł</td>
+					</tr>
+					<tr>
+						<td>Naprawa elektronarzędzi</td>
+						<td>od 20zł</td>
+					</tr>
+					<tr>
+						<td>Naprawa agregatów</td>
+						<td>roboczogodzina - 50zł</td>
+					</tr>
+					<tr>
+						<td>Przezwajanie silników</td>
+						<td>roboczogodzina - 50zł</td>
+					</tr>
+					<tr>
+						<td>Inne</td>
+						<td>roboczogodzina - 50zł</td>
+					</tr>
+				</table>
+			</div>
+			<div class="mobile-invisible float-right col-50 image">
+				<a target="_blank" href="img/img3.png">
+					<img src="img/img3.png" alt="sklep"/>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+
+		<div id="mapa" class="full-viewport">
+			<div id="map-content" class="full"></div>
+			<!-- <iframe class="full" id="map-iframe" style="border: none;" src="https://www.openstreetmap.org/export/embed.html?bbox=23.177783489227295%2C52.75455498288256%2C23.194391727447513%2C52.76203476162491&amp;layer=mapnik&amp;marker=52.758295032815894%2C23.186087608337402" style="border: 1px solid black"></iframe><br/>
+			<div class="text-right">
+				<a target="_blank" href="https://www.openstreetmap.org/?mlat=52.7583&amp;mlon=23.1861#map=16/52.7583/23.1861&amp;layers=N">Wyświetl większą mapę</a>
+			</div> -->
+		</div>
+
+
+
+		<section id="kontakt" class="text-center">
+			<h2><i class="fa fa-phone"></i> Kontakt</h2>
+
+			<div class="inline-block col-20">
+				<h3><i class="fa fa-map-marker-alt"></i> Lokalizacja</h3>
+				<p>
+					ul. Sportowa 14<br>
+					17-100 Bielsk Podlaski<br>
+					<a target="_blank" href="https://www.openstreetmap.org/?mlat=52.7583&mlon=23.1860#map=16/52.7583/23.1860&layers=N">52.7583, 23.1860</a>
+				</p>
+			</div><div class="inline-block col-20">
+				<h3><i class="far fa-envelope"></i> Dane kontaktowe</h3>
+				<p>
+					E-mail: <a href="mailto:kiers@list.pl">kiers@list.pl</a><br>
+					Telefon: 608 050 755
+				</p>
+			</div><div class="inline-block col-20">
+				<h3><i class="far fa-clock"></i> Godziny otwarcia</h3>
+				<p>
+					pn - pt: 8-16<br>
+					sobota: 8-13
+				</p>
+			</div><div class="inline-block col-20">
+				<h3><i class="far fa-credit-card"></i> Formy płatności</h3>
+				<p>
+					<i class="fa fa-check"></i> Gotówka<br>
+					<i class="fa fa-check"></i> Przelew<br>
+					<i class="fa fa-check"></i> Karta
+				</p>
+			</div><div class="inline-block col-20">
+				<h3><i class="far fa-id-card"></i> Rejestr</h3>
+				<p>
+					NIP: <a target="_blank" href="https://wyszukiwarkaregon.stat.gov.pl/appBIR/index.aspx">543-120-13-49</a><br>
+					REGON: <a target="_blank" href="https://wyszukiwarkaregon.stat.gov.pl/appBIR/index.aspx">050132903</a>
+				</p>
+			</div>
+		</section>
+
+
+
+	</main>
+
+
+
+	<footer>
+		<h2>&copy; Elektromechanika Krzysztof Kiersnowski 1986-2021</h2>
+
+		<p class="x-small"><a target="_blank" href="https://karol-kiersnowski.github.io">karol-kiersnowski.github.io</a></p>
+		<p class="x-small">
+			Do stworzenia strony wykorzystano<br>
+			ikony <a target="_blank" href="https://fontawesome.com">Font Awesome</a>, czcionkę <a target="_blank" href="https://github.com/andrew-paglinawan/QuicksandFamily">Quicksand</a>,<br>
+			<a target="_blank" href="https://www.openstreetmap.org">OpenStreetMap</a> oraz <a target="_blank" href="https://leafletjs.com/">Leaflet</a> <a target="_blank" href="https://github.com/elmarquis/Leaflet.GestureHandling">(Leaflet.GestureHandling)</a>
+		</p>
+		<!-- <p class="x-small">
+			<a target="_blank" href="wersja2/index.html">wersja 2.</a> |
+			<a target="_blank" href="opisy.html">opisy z innych stron</a> |
+			<a target="_blank" href="stats.php">statystyki</a>
+		</p> -->
+
+		<?php
+			include 'php/script.php';
+			incrementPageView();
+		?>
+		<p id="counter">
+			<?=drawCounter()?><br><span class="x-small">[od 2021-12-21]</span>
+		</p>
+	</footer>
+
+
+
+</body>
+</html>

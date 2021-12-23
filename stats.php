@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>elektromechanika.net.pl</h1>
-	<h2>statystyki (dane od 2021-12-21)</h2>
+	<h2>statystyki (dane od <?=displayCountingStartDate()?>)</h2>
 
 	<p>
 		Wyświetlenia: <?php echo getCounter(); ?>

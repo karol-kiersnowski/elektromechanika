@@ -265,7 +265,7 @@
 			incrementPageView();
 		?>
 		<p id="counter">
-			<?=drawCounter()?><br><span class="x-small">[od 2021-12-21]</span>
+			<?=displayCounter()?><br><span class="x-small">[od <?=displayCountingStartDate()?>]</span>
 		</p>
 	</footer>
 

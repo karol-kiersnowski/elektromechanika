@@ -246,7 +246,7 @@
 
 
 	<footer>
-		<h2>&copy; Elektromechanika Krzysztof Kiersnowski 1986-2021</h2>
+		<h2>&copy; Elektromechanika Krzysztof Kiersnowski 1986-2022</h2>
 
 		<p class="x-small"><a target="_blank" href="https://karol-kiersnowski.github.io">karol-kiersnowski.github.io</a></p>
 		<p class="x-small">

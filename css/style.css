@@ -277,7 +277,8 @@ p#counter a:hover {
 		padding-bottom: 6px;
 		border: 1px solid #aaa;
 		border-left: none;
-		background-color: #fff;
+		background: #fff;
+		background: linear-gradient(#eaeaea, #fff, #eaeaea); 
 		color: #000;
 		font-family: Digital-7;
 		font-size: 16px;

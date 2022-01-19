@@ -26,16 +26,22 @@ function increaseCounter()
 
 function increaseCounterWithoutAdminVisits()
 {
+	$adminIP = "91.244.219.226";
+	
 	if(file_exists("php/counter-noadmin.txt"))
 	{ 
 		$file = fopen("php/counter-noadmin.txt", "r");
 		$counterNoAdmin = (int)fgets($file);
 		fclose($file);
-		if ($_SERVER['REMOTE_ADDR'] != "91.244.219.226")
+		if ($_SERVER['REMOTE_ADDR'] != $adminIP)
 			$counterNoAdmin++;
 	} 
-	else
-		$counterNoAdmin = 1;
+	else {
+		if ($_SERVER['REMOTE_ADDR'] != $adminIP)
+			$counterNoAdmin = 1;
+		else
+			$counterNoAdmin = 0;
+	}
 
 	$file = fopen("php/counter-noadmin.txt", "w");
 	fwrite($file, $counterNoAdmin);
@@ -74,7 +80,7 @@ function addVisitor()
 	$time = date("H:i:s");
 	$ip = $_SERVER['REMOTE_ADDR'];
 	$ipArray = explode(".", $ip);
-	$ipAnonymized = $ipArray[0] . "." . $ipArray[1] . "." . $ipArray[2] . "." . "XXX";
+	$ipAnonymized = $ipArray[0] . "." . $ipArray[1] . "." . $ipArray[2] . "." . "***";
 	$visitor = array($id,$date,$time,$ipAnonymized);
 	$file = fopen("php/visitors.csv","a");
 	fputcsv($file, $visitor);

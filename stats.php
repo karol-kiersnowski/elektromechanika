@@ -3,6 +3,11 @@
 <html lang="pl-PL">
 <head>
 	<meta charset="utf-8"/>
+	<style>
+		body {
+			font-family: monospace;
+		}
+	</style>
 </head>
 <body>
 	<h1>elektromechanika.net.pl</h1>

@@ -30,7 +30,7 @@
 	<header class="full">
 		<div id="header-background"></div>
 		<div id="header-content">
-			<a href="https://elektromechanika.net.pl">
+			<a ontouchstart="filterHeaderBackground(this)" ontouchend="unfilterHeaderBackground(this)" onmouseover="filterHeaderBackground(this)" onmouseout="unfilterHeaderBackground(this)">
 				<img src="img/logo-500x500.png" alt="logo"/>
 				<h1 id="main">Elektromechanika</h1>
 				<h1 id="sub">Krzysztof Kiersnowski</h1>
@@ -142,6 +142,10 @@
 
 
 
+		<img class="full" src="img/warsztat.jpg" alt="warsztat"/>
+
+
+
 		<section id="warsztat">
 			<div class="float-left col-50">
 				<h2 class="text-center"><i class="fa fa-wrench"></i> Warsztat</h2>
@@ -153,31 +157,31 @@
 					</tr>
 					<tr>
 						<td>Naprawa rozrusznika</td>
-						<td>od 70zł</td>
+						<td>od 100 zł</td>
 					</tr>
 					<tr>
 						<td>Naprawa alternatora</td>
-						<td>od 70zł</td>
+						<td>od 100 zł</td>
 					</tr>
 					<tr>
 						<td>Naprawa prostownika</td>
-						<td>od 20zł</td>
+						<td>od 50 zł</td>
 					</tr>
 					<tr>
-						<td>Naprawa elektronarzędzi</td>
-						<td>od 20zł</td>
+						<td>Naprawa elektronarzędzia</td>
+						<td>od 50 zł</td>
 					</tr>
 					<tr>
 						<td>Naprawa agregatów</td>
-						<td>roboczogodzina - 50zł</td>
+						<td>roboczogodzina – 70 zł</td>
 					</tr>
 					<tr>
 						<td>Przezwajanie silników</td>
-						<td>roboczogodzina - 50zł</td>
+						<td>roboczogodzina – 70 zł</td>
 					</tr>
 					<tr>
 						<td>Inne</td>
-						<td>roboczogodzina - 50zł</td>
+						<td>roboczogodzina – 70 zł</td>
 					</tr>
 				</table>
 			</div>
@@ -220,8 +224,7 @@
 			</div><div class="inline-block col-20">
 				<h3><i class="far fa-clock"></i> Godziny otwarcia</h3>
 				<p>
-					pn - pt: 8-16<br>
-					sobota: 8-13
+					pn – pt:<br>8<sup>00</sup> – 16<sup>00</sup>
 				</p>
 			</div><div class="inline-block col-20">
 				<h3><i class="far fa-credit-card"></i> Formy płatności</h3>
@@ -265,7 +268,7 @@
 			incrementPageView();
 		?>
 		<p id="counter">
-			<?=displayCounter()?><br><span class="x-small">[od <?=displayCountingStartDate()?>]</span>
+			<?=displayCounter()?><!-- <br><span class="x-small">[od <?=displayCountingStartDate()?>]</span> -->
 		</p>
 	</footer>
 

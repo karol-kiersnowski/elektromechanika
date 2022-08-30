@@ -68,7 +68,7 @@ function addVisitor()
 {
 	if(!file_exists("php/visitors.csv"))
 	{
-		$visitor = array("id","date","time","ip");
+		$visitor = array("ID","DATA","CZAS","IP");
 		$file = fopen("php/visitors.csv","w");
 		fputcsv($file, $visitor);
 		fclose($file);

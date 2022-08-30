@@ -13,10 +13,22 @@ function markAnchor() {
 		articlesTop[i] = articles[i].getBoundingClientRect().top;
 		articlesBottom[i] = articles[i].getBoundingClientRect().bottom;
 		anchors[i] = document.querySelector("a[href='#" + articles[i].id + "']");
-		anchors[i].style.borderTop = "3px solid rgba(255,255,255,0)";
+		anchors[i].style.borderTop = "4px solid rgba(255,255,255,0)";
 		if (articlesTop[i] <= 5 && articlesBottom[i] > 5)
-			anchors[i].style.borderTop = "3px solid rgb(255,255,255)";
+			anchors[i].style.borderTop = "4px solid rgb(255,255,255)";
 	}
+}
+
+function filterHeaderBackground(headerBackground) {
+	headerBackground.parentElement.parentElement.children[0].style = "filter: contrast(50%) blur(3px)";
+}
+
+function unfilterHeaderBackground(headerBackground) {
+	headerBackground.parentElement.parentElement.children[0].style = "filter: auto";
+}
+
+function wyswietl() {
+	alert("tekst");
 }
 
 function initOpenStreetMap() {
